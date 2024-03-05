@@ -31,4 +31,4 @@
 1. [Zeynep Melike Aydoğmuş'un Gereksinimler](Zeynep-Melike-Aydoğmuş-Gereksinimleri.md)<br>
 1. [Ebrar Kadir Çetin'nin Gereksinimler](Ebrar-Kadir-Gereksinimleri.md)<br>
 1. [Funda Uğurlu'nun Gereksinimler](Funda-Uğurlu-Gereksinimleri.md)<br>
-1. [Oğuzhan Yıldiz'in Gereksinimler](Oğuzhan-Yıldiz.md)<br>
+1. [Oğuzhan Yıldiz'in Gereksinimler](Oğuzhan-Yıldiz-Gereksinimleri.md)<br>
