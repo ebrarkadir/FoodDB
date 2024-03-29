@@ -28,7 +28,7 @@
 <b>27. Yorum Listeleme (Ebrar Kadir Çetin)</b><br>
 
 # Gereksinim Dağılımları
-1. [Zeynep Melike Aydoğmuş'un Gereksinimler](Zeynep-Melike-Aydoğmuş-Gereksinimleri.md)<br>
-1. [Ebrar Kadir Çetin'nin Gereksinimler](Ebrar-Kadir-Gereksinimleri.md)<br>
-1. [Funda Uğurlu'nun Gereksinimler](Funda-Uğurlu-Gereksinimleri.md)<br>
-1. [Oğuzhan Yıldiz'in Gereksinimler](Oğuzhan-Yıldiz-Gereksinimleri.md)<br>
+1. [Zeynep Melike Aydoğmuş'un Gereksinimler](Proje-Dosyalari/Gereksinim-Analizleri/Zeynep-Melike-Aydoğmuş-Gereksinimleri.md)<br>
+1. [Ebrar Kadir Çetin'nin Gereksinimler](Proje-Dosyalari/Gereksinim-Analizleri/Ebrar-Kadir-Gereksinimleri.md)<br>
+1. [Funda Uğurlu'nun Gereksinimler](Proje-Dosyalari/Gereksinim-Analizleri/Funda-Uğurlu-Gereksinimleri.md)<br>
+1. [Oğuzhan Yıldiz'in Gereksinimler](Proje-Dosyalari/Gereksinim-Analizleri/Oğuzhan-Yıldiz-Gereksinimleri.md)<br>

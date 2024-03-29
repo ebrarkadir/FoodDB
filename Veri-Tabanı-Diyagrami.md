@@ -1,1 +1,1 @@
-![Veritabi](Proje-Dosyalari/veritabani_diagrami.png)
+![Veritabi](Proje-Dosyalari/fotograflar/veritabani_diagrami.png)
