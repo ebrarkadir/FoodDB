@@ -1,0 +1,1 @@
+![Veritabi](veritabani_diagrami.png)
