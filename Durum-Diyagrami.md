@@ -1,0 +1,1 @@
+![ProjeTablo](Proje-Dosyalari/fotograflar/Durum-diyagramı.jpeg)
