@@ -1,2 +1,2 @@
-![ProjePlanı](Proje-Dosyalari/fotograflar/Proje_Plani.png)
-![ProjeTablo](Proje-Dosyalari/fotograflar/Proje_Tablo.png)
+![ProjePlanı](../fotograflar/Proje_Plani.png)
+![ProjeTablo](../fotograflar/Proje_Tablo.png)

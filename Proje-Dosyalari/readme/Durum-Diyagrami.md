@@ -1,1 +1,1 @@
-![ProjeTablo](Proje-Dosyalari/fotograflar/Durum-diyagramı.jpeg)
+![ProjeTablo](../fotograflar/Durum-diyagramı.jpeg)
