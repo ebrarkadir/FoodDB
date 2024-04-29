@@ -6,12 +6,12 @@
 <p><b>Grup Adı:</b> EFZO<p>
 <p><b>Proje Ekibi:</b> Melike,Funda,Kadir,Oğuzhan<p>
 
-1.[Proje Planı](Proje-Plani.md)<br>
-2.[Gereksinim Analizi](Gereksinim-Analizi.md)<br>
-3.[Durum Diyagramı](Durum-Diyagrami.md)<br>
-4.[Durum Senaryoları](Durum-Senaryolari.md)<br>
-5.[Veri Tabanı Diyagramı](Veri-Tabanı-Diyagrami.md)<br>
-6.[Front-End](Front-End.md)<br>
-7.[Back-End](Back-End.md)<br>
-8.[Test](Test.md)<br>
-9.[Geliştirici ve Kullancı Dökümantasyonları](Geliştirici-Ve-Kullanici-Dokumantasyonlari.md)<br>
+1.[Proje Planı](Proje-Dosyalari/readme/Proje-Plani.md)<br>
+2.[Gereksinim Analizi](Proje-Dosyalari/readme/Gereksinim-Analizi.md)<br>
+3.[Durum Diyagramı](Proje-Dosyalari/readme/Durum-Diyagrami.md)<br>
+4.[Durum Senaryoları](Proje-Dosyalari/readme/Durum-Senaryolari.md)<br>
+5.[Veri Tabanı Diyagramı](Proje-Dosyalari/readme/Veri-Tabanı-Diyagrami.md)<br>
+6.[Front-End](Proje-Dosyalari/readme/Front-End.md)<br>
+7.[Back-End](Proje-Dosyalari/readme/Back-End.md)<br>
+8.[Test](Proje-Dosyalari/readme/Test.md)<br>
+9.[Geliştirici ve Kullancı Dökümantasyonları](Proje-Dosyalari/readme/Geliştirici-Ve-Kullanici-Dokumantasyonlari.md)<br>
