@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# foodDB
+<p><b>Proje Tanımı:</b> foodDB adlı yemek sipariş sitemiz, kullanıcıları ve restoranları doğrudan bir araya getirmek için tasarlanmıştır.Piyasadaki diğer yemek sipariş platformlarının aksine, aracı kurum olmadan kullanıcıları ve restoranları buluşturmayı amaçlamaktadır. Bu yaklaşım, yüksek komisyon ücretlerini ortadan kaldırarak kullanıcıların daha uygun fiyatlarla yemek siparişi vermelerini sağlarken, restoranların da aracı kuruluşlara komisyon ödemeden ürünlerini sergilemelerine imkan tanır..<p>
+<p><b>Proje Kategorisi:</b> E-Sipariş<p>
+<p><b>Referans Uygulaması:</b><p>
+<p><b>Uygulama adresi:</b><p>
+<p><b>Grup Adı:</b> EFZO<p>
+<p><b>Proje Ekibi:</b> Melike,Funda,Kadir,Oğuzhan<p>
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1.[Proje Planı](Proje-Dosyalari/readme/Proje-Plani.md)<br>
+2.[Gereksinim Analizi](Proje-Dosyalari/readme/Gereksinim-Analizi.md)<br>
+3.[Durum Diyagramı](Proje-Dosyalari/readme/Durum-Diyagrami.md)<br>
+4.[Durum Senaryoları](Proje-Dosyalari/readme/Durum-Senaryolari.md)<br>
+5.[Veri Tabanı Diyagramı](Proje-Dosyalari/readme/Veri-Tabanı-Diyagrami.md)<br>
+6.[Front-End](Proje-Dosyalari/readme/Front-End.md)<br>
+7.[Back-End](Proje-Dosyalari/readme/Back-End.md)<br>
+8.[Test](Proje-Dosyalari/readme/Test.md)<br>
+9.[Geliştirici ve Kullancı Dökümantasyonları](Proje-Dosyalari/readme/Geliştirici-Ve-Kullanici-Dokumantasyonlari.md)<br>
