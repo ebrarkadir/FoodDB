@@ -15,12 +15,12 @@ export default function Home() {
         />
         <div className="text-gray-500 max-w-md mx-auto mt-4 flex flex-col gap-4">
           <p>
-          Biz, lezzetin ve misafirperverliğin buluştuğu bir noktayız. İstanbul'un kalbinde, FoodDB olarak 2020 yılında kurulduk. O günden beri, lezzetin sınırlarını zorlayan ve misafirlerimize unutulmaz bir deneyim sunan bir  işletmesiyiz.
+          Hoş geldiniz! Lezzet dolu bir maceraya hazır mısınız? Biz, FoodDB olarak  İstanbul'un hızlı tempolu yaşam tarzına ayak uyduran, lezzetin hızını ve keyfini bir araya getiren bir fast food deneyimi sunuyoruz. 2020 yılında İstanbul'da doğduk ve o zamandan beri şehrin en iştah açıcı adreslerinden biri olduk.
           </p>
-          <p>Yıllar içinde edindiğimiz deneyim ve tutku, her tabakta ve her siparişte hissedilir. FoodDB, İstanbul'un çeşitli lezzetlerini buluşturan bir mozaik gibi, şehrin zengin gastronomik kültürünü yansıtıyor.
+          <p> Müşterilerimize hızlı, lezzetli ve doyurucu yemekler sunarken, aynı zamanda onlara evlerindeymiş gibi rahat hissettirmek için çalışıyoruz. FoodDB, kaliteli malzemelerle hazırladığı atıştırmalıkları ve özel tariflerini sunmaktan gurur duyar.
 </p>
-          <p>Misafir memnuniyeti, işimizin merkezinde yer alır. Her bir müşterimizi ağırlarken, sadece yemeğin tadını değil, aynı zamanda kalplerini de kazanmayı hedefliyoruz. Şeffaf iletişim, özenli hizmet ve lezzetin doruklarında bir deneyim için buradayız.</p>
-          <p>Sizleri, FoodDB ailesine katılmaya ve lezzet yolculuğumuza ortak olmaya davet ediyoruz. İyi yemek, iyi dostluk ve unutulmaz anlar için, bizi tercih ettiğiniz için teşekkür ederiz.</p>
+          <p>Müşteri memnuniyeti, bizim için her şeyin önünde gelir. Her siparişi birinci önceliğimiz olarak görüyoruz ve her müşteriye en iyi hizmeti sunmak için çaba gösteriyoruz. Siz değerli misafirlerimizi ağırlamak ve sizi tatmin etmek için buradayız.</p>
+          <p>Sizi, FoodDB ailesine katılmaya ve lezzet dolu bir yolculuğa çıkmaya davet ediyoruz. İyi yemek, keyifli anlar ve tatmin edici bir deneyim için bizi tercih ettiğiniz için teşekkür ederiz.</p>
         </div>
       </section>
       <section className="text-center my-8" id="contact">
