@@ -10,7 +10,7 @@ export default function Hero() {
           <span className="text-primary">
           FoodDB
           </span><br />
-           İle lezzette<br />
+           ile lezzette<br />
           sınır yok<br />
           
         </h1>
