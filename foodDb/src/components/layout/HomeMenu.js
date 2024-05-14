@@ -25,8 +25,8 @@ export default function HomeMenu() {
       </div>
       <div className="text-center mb-4">
         <SectionHeaders
-          subHeader={'check out'}
-          mainHeader={'Our Best Sellers'} />
+          subHeader={'Göz Atın!'}
+          mainHeader={'Çok Satanlar'} />
       </div>
       <div className="grid sm:grid-cols-3 gap-4">
         {bestSellers?.length > 0 && bestSellers.map(item => (

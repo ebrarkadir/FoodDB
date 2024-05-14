@@ -10,25 +10,27 @@ export default function Home() {
       <HomeMenu />
       <section className="text-center my-16" id="about">
         <SectionHeaders
-          subHeader={'Our story'}
-          mainHeader={'About us'}
+          
+          mainHeader={'Hakkımızda'}
         />
         <div className="text-gray-500 max-w-md mx-auto mt-4 flex flex-col gap-4">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minima odit recusandae. Illum ipsa non repudiandae? Eum ipsam iste quos suscipit tempora? Aperiam esse fugiat inventore laboriosam officiis quam rem!
+          Biz, lezzetin ve misafirperverliğin buluştuğu bir noktayız. İstanbul'un kalbinde, foodDB olarak 2020 yılında kurulduk. O günden beri, lezzetin sınırlarını zorlayan ve misafirlerimize unutulmaz bir deneyim sunan bir  işletmesiyiz.
           </p>
-          <p>At consectetur delectus ducimus est facere iure molestias obcaecati quaerat vitae voluptate? Aspernatur dolor explicabo iste minus molestiae pariatur provident quibusdam saepe?</p>
-          <p>Laborum molestias neque nulla obcaecati odio quia quod reprehenderit sit vitae voluptates? Eos, tenetur.</p>
+          <p>Yıllar içinde edindiğimiz deneyim ve tutku, her tabakta ve her siparişte hissedilir. foodDB, İstanbul'un çeşitli lezzetlerini buluşturan bir mozaik gibi, şehrin zengin gastronomik kültürünü yansıtıyor.
+</p>
+          <p>Misafir memnuniyeti, işimizin merkezinde yer alır. Her bir müşterimizi ağırlarken, sadece yemeğin tadını değil, aynı zamanda kalplerini de kazanmayı hedefliyoruz. Şeffaf iletişim, özenli hizmet ve lezzetin doruklarında bir deneyim için buradayız.</p>
+          <p>Sizleri, foodDB ailesine katılmaya ve lezzet yolculuğumuza ortak olmaya davet ediyoruz. İyi yemek, iyi dostluk ve unutulmaz anlar için, bizi tercih ettiğiniz için teşekkür ederiz.</p>
         </div>
       </section>
       <section className="text-center my-8" id="contact">
         <SectionHeaders
-          subHeader={'Don\'t hesitate'}
-          mainHeader={'Contact us'}
+          subHeader={'Tereddüt etmeyin!'}
+          mainHeader={'Bizimle İletişime Geçin'}
         />
         <div className="mt-8">
           <a className="text-4xl underline text-gray-500" href="tel:+46738123123">
-            +46 738 123 123
+            +90 554 690 00 88
           </a>
         </div>
       </section>
