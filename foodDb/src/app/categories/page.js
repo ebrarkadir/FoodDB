@@ -113,7 +113,6 @@ export default function CategoriesPage() {
             </button>
           </div>
         </div>
-        
       </form>
       <div>
         <h2 className="mt-8 text-sm text-gray-500">Existing categories</h2>
