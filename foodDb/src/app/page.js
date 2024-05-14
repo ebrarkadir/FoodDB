@@ -15,12 +15,12 @@ export default function Home() {
         />
         <div className="text-gray-500 max-w-md mx-auto mt-4 flex flex-col gap-4">
           <p>
-          Biz, lezzetin ve misafirperverliğin buluştuğu bir noktayız. İstanbul'un kalbinde, foodDB olarak 2020 yılında kurulduk. O günden beri, lezzetin sınırlarını zorlayan ve misafirlerimize unutulmaz bir deneyim sunan bir  işletmesiyiz.
+          Biz, lezzetin ve misafirperverliğin buluştuğu bir noktayız. İstanbul'un kalbinde, FoodDB olarak 2020 yılında kurulduk. O günden beri, lezzetin sınırlarını zorlayan ve misafirlerimize unutulmaz bir deneyim sunan bir  işletmesiyiz.
           </p>
-          <p>Yıllar içinde edindiğimiz deneyim ve tutku, her tabakta ve her siparişte hissedilir. foodDB, İstanbul'un çeşitli lezzetlerini buluşturan bir mozaik gibi, şehrin zengin gastronomik kültürünü yansıtıyor.
+          <p>Yıllar içinde edindiğimiz deneyim ve tutku, her tabakta ve her siparişte hissedilir. FoodDB, İstanbul'un çeşitli lezzetlerini buluşturan bir mozaik gibi, şehrin zengin gastronomik kültürünü yansıtıyor.
 </p>
           <p>Misafir memnuniyeti, işimizin merkezinde yer alır. Her bir müşterimizi ağırlarken, sadece yemeğin tadını değil, aynı zamanda kalplerini de kazanmayı hedefliyoruz. Şeffaf iletişim, özenli hizmet ve lezzetin doruklarında bir deneyim için buradayız.</p>
-          <p>Sizleri, foodDB ailesine katılmaya ve lezzet yolculuğumuza ortak olmaya davet ediyoruz. İyi yemek, iyi dostluk ve unutulmaz anlar için, bizi tercih ettiğiniz için teşekkür ederiz.</p>
+          <p>Sizleri, FoodDB ailesine katılmaya ve lezzet yolculuğumuza ortak olmaya davet ediyoruz. İyi yemek, iyi dostluk ve unutulmaz anlar için, bizi tercih ettiğiniz için teşekkür ederiz.</p>
         </div>
       </section>
       <section className="text-center my-8" id="contact">

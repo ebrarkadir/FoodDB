@@ -8,7 +8,7 @@ export default function Hero() {
         <h1 className="text-4xl font-semibold">
         &nbsp;
           <span className="text-primary">
-          FOOD DB
+          FoodDB
           </span><br />
            İle lezzette<br />
           sınır yok<br />

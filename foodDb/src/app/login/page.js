@@ -19,7 +19,7 @@ export default function LoginPage() {
   return (
     <section className="mt-8">
       <h1 className="text-center text-primary text-4xl mb-4">
-        Login
+        Giriş Yap
       </h1>
       <form className="max-w-xs mx-auto" onSubmit={handleFormSubmit}>
         <input type="email" name="email" placeholder="email" value={email}
@@ -28,14 +28,14 @@ export default function LoginPage() {
         <input type="password" name="password" placeholder="password" value={password}
                disabled={loginInProgress}
                onChange={ev => setPassword(ev.target.value)}/>
-        <button disabled={loginInProgress} type="submit">Login</button>
+        <button disabled={loginInProgress} type="submit">Giriş Yap</button>
         <div className="my-4 text-center text-gray-500">
-          or login with provider
+          Veya
         </div>
         <button type="button" onClick={() => signIn('google', {callbackUrl: '/'})}
                 className="flex gap-4 justify-center">
           <Image src={'/google.png'} alt={''} width={24} height={24} />
-          Login with google
+          Google ile giriş yap
         </button>
       </form>
     </section>
