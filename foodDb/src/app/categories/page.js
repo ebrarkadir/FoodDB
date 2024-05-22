@@ -56,7 +56,7 @@ export default function CategoriesPage() {
   async function handleDeleteClick(_id) {
     const promise = new Promise(async (resolve, reject) => {
       const response = await fetch('/api/categories?_id='+_id, {
-        method: 'DELETE',
+        method: 'Sil',
       });
       if (response.ok) {
         resolve();
@@ -66,8 +66,8 @@ export default function CategoriesPage() {
     });
 
     await toast.promise(promise, {
-      loading: 'Deleting...',
-      success: 'Deleted',
+      loading: 'Siliniyor...',
+      success: 'Silindi',
       error: 'Error',
     });
 
@@ -75,11 +75,11 @@ export default function CategoriesPage() {
   }
 
   if (profileLoading) {
-    return 'Loading user info...';
+    return 'Kullanıcı bilgisi çekiliyor...';
   }
 
   if (!profileData.admin) {
-    return 'Not an admin';
+    return 'admin değilsiniz';
   }
 
   return (
@@ -89,7 +89,7 @@ export default function CategoriesPage() {
         <div className="flex gap-2 items-end">
           <div className="grow">
             <label>
-              {editedCategory ? 'Update category' : 'New category name'}
+              {editedCategory ? 'Kategori güncelle' : 'Yeni Kategori'}
               {editedCategory && (
                 <>: <b>{editedCategory.name}</b></>
               )}
@@ -133,7 +133,7 @@ export default function CategoriesPage() {
                 Edit
               </button>
               <DeleteButton
-                label="Delete"
+                label="Sil"
                 onDelete={() => handleDeleteClick(c._id)} />
             </div>
           </div>

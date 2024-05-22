@@ -30,7 +30,7 @@ export default function OrdersPage() {
       <UserTabs isAdmin={profile.admin} />
       <div className="mt-8">
         {loadingOrders && (
-          <div>Loading orders...</div>
+          <div>Sipariş Yükleniyor</div>
         )}
         {orders?.length > 0 && orders.map(order => (
           <div
@@ -57,7 +57,7 @@ export default function OrdersPage() {
             </div>
             <div className="justify-end flex gap-2 items-center whitespace-nowrap">
               <Link href={"/orders/"+order._id} className="button">
-                Show order
+                Siparişi göster
               </Link>
             </div>
           </div>

@@ -83,7 +83,7 @@ export default function MenuItem(menuItem) {
                         onChange={() => setSelectedSize(size)}
                         checked={selectedSize?.name === size.name}
                         name="size"/>
-                      {size.name} ${basePrice + size.price}
+                      {size.name} ₺{basePrice + size.price}
                     </label>
                   ))}
                 </div>
@@ -100,7 +100,7 @@ export default function MenuItem(menuItem) {
                         onChange={ev => handleExtraThingClick(ev, extraThing)}
                         checked={selectedExtras.map(e => e._id).includes(extraThing._id)}
                         name={extraThing.name} />
-                      {extraThing.name} +${extraThing.price}
+                      {extraThing.name} +₺{extraThing.price}
                     </label>
                   ))}
                 </div>
@@ -111,13 +111,13 @@ export default function MenuItem(menuItem) {
                 src={image}>
                 <div className="primary sticky bottom-2"
                      onClick={handleAddToCartButtonClick}>
-                  Add to cart ${selectedPrice}
+                  Sepete ekle ₺{selectedPrice}
                 </div>
               </FlyingButton>
               <button
                 className="mt-2"
                 onClick={() => setShowPopup(false)}>
-                Cancel
+                İptal et
               </button>
             </div>
           </div>

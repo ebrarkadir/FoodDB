@@ -100,19 +100,19 @@ export default function CartPage() {
           ))}
           <div className="py-2 pr-16 flex justify-end items-center">
             <div className="text-gray-500">
-              Subtotal:<br />
-              Delivery:<br />
-              Total:
+              Ücret:<br />
+              Teslimat:<br />
+              Toplam:
             </div>
             <div className="font-semibold pl-2 text-right">
-              ${subtotal}<br />
-              $5<br />
-              ${subtotal + 5}
+            ₺{subtotal}<br />
+            ₺5<br />
+            ₺{subtotal + 5}
             </div>
           </div>
         </div>
         <div className="bg-gray-100 p-4 rounded-lg">
-          <h2>Checkout</h2>
+          <h2>Sipariş</h2>
           <form onSubmit={proceedToCheckout}>
             <AddressInputs
               addressProps={address}

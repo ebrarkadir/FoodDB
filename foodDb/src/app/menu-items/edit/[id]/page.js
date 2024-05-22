@@ -54,7 +54,7 @@ export default function EditMenuItemPage() {
   async function handleDeleteClick() {
     const promise = new Promise(async (resolve, reject) => {
       const res = await fetch('/api/menu-items?_id='+id, {
-        method: 'DELETE',
+        method: 'Sil',
       });
       if (res.ok)
         resolve();
@@ -63,8 +63,8 @@ export default function EditMenuItemPage() {
     });
 
     await toast.promise(promise, {
-      loading: 'Deleting...',
-      success: 'Deleted',
+      loading: 'Siliniyor...',
+      success: 'Silindi',
       error: 'Error',
     });
 

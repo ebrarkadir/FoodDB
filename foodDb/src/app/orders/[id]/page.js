@@ -55,10 +55,10 @@ export default function OrderPage() {
             ))}
             <div className="text-right py-2 text-gray-500">
               Alt toplam:
-              <span className="text-black font-bold inline-block w-8">${subtotal}</span>
+              <span className="text-black font-bold inline-block w-8">₺{subtotal}</span>
               <br />
               Teslimat:
-              <span className="text-black font-bold inline-block w-8">$5</span>
+              <span className="text-black font-bold inline-block w-8">₺5</span>
               <br />
               Toplam:
               <span className="text-black font-bold inline-block w-8">

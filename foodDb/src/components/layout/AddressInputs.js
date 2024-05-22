@@ -2,39 +2,39 @@ export default function AddressInputs({addressProps,setAddressProp,disabled=fals
   const {phone, streetAddress, postalCode, city, country} = addressProps;
   return (
     <>
-      <label>Phone</label>
+      <label>Telefon</label>
       <input
         disabled={disabled}
-        type="tel" placeholder="Phone number"
+        type="tel" placeholder="Telefon Numarası"
         value={phone || ''} onChange={ev => setAddressProp('phone', ev.target.value)} />
-      <label>Street address</label>
+      <label>Adres</label>
       <input
         disabled={disabled}
-        type="text" placeholder="Street address"
+        type="text" placeholder="Adres"
         value={streetAddress || ''} onChange={ev => setAddressProp('streetAddress', ev.target.value)}
       />
       <div className="grid grid-cols-2 gap-2">
         <div>
-          <label>Postal code</label>
+          <label>Posta Kodu</label>
           <input
             disabled={disabled}
-            type="text" placeholder="Postal code"
+            type="text" placeholder="Posta Kodu"
             value={postalCode || ''} onChange={ev => setAddressProp('postalCode', ev.target.value)}
           />
         </div>
         <div>
-          <label>City</label>
+          <label>Şehir</label>
           <input
             disabled={disabled}
-            type="text" placeholder="City"
+            type="text" placeholder="Şehir"
             value={city || ''} onChange={ev => setAddressProp('city', ev.target.value)}
           />
         </div>
       </div>
-      <label>Country</label>
+      <label>Ülke</label>
       <input
         disabled={disabled}
-        type="text" placeholder="Country"
+        type="text" placeholder="Ülke"
         value={country || ''} onChange={ev => setAddressProp('country', ev.target.value)}
       />
     </>
