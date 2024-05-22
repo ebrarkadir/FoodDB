@@ -13,6 +13,7 @@ export default function AddToCartButton({
           <div onClick={onClick}>
             Sepete ekle ₺{basePrice}
           </div>
+          
         </FlyingButton>
       </div>
     );
@@ -25,5 +26,7 @@ export default function AddToCartButton({
     >
       <span>Sepete ekle ₺{basePrice}</span>
     </button>
+    
+    
   );
 }

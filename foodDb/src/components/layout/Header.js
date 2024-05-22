@@ -11,12 +11,12 @@ function AuthLinks({status, userName}) {
     return (
       <>
         <Link href={'/profile'} className="whitespace-nowrap">
-          Hello, {userName}
+          Merhaba, {userName}
         </Link>
         <button
           onClick={() => signOut()}
           className="bg-primary rounded-full text-white px-8 py-2">
-          Logout
+          Çıkış yap
         </button>
       </>
     );

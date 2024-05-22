@@ -84,7 +84,7 @@ export default function CartPage() {
   return (
     <section className="mt-8">
       <div className="text-center">
-        <SectionHeaders mainHeader="Cart" />
+        <SectionHeaders mainHeader="Sepet" />
       </div>
       <div className="mt-8 grid gap-8 grid-cols-2">
         <div>
