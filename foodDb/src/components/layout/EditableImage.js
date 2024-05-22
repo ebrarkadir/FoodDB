@@ -18,7 +18,7 @@ export default function EditableImage({link, setLink}) {
             setLink(link);
           })
         }
-        throw new Error('Something went wrong');
+        throw new Error('Upload failed: ' + response.statusText);
       });
 
       await toast.promise(uploadPromise, {
