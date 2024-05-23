@@ -1,4 +1,5 @@
-import AddToCartButton from "@/components/menu/AddToCartButton";
+import AddToCartButton from "../menu/AddToCartButton";
+import FavoriteButton from "../menu/FavoriteButon";
 
 export default function MenuItemTile({onAddToCart, ...item}) {
   const {image, description, name, basePrice,
@@ -16,13 +17,14 @@ export default function MenuItemTile({onAddToCart, ...item}) {
       <p className="text-gray-500 text-sm line-clamp-3">
         {description}
       </p>
-      
+      <FavoriteButton productId={name} />
       <AddToCartButton
         image={image}
         hasSizesOrExtras={hasSizesOrExtras}
         onClick={onAddToCart}
         basePrice={basePrice}
       />
+
       
     </div>
   );

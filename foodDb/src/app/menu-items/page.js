@@ -34,7 +34,7 @@ export default function MenuItemsPage() {
         <Link
           className="button flex"
           href={'/menu-items/new'}>
-          <span>Crete new menu item</span>
+          <span>Yeni menü</span>
           <Right />
         </Link>
       </div>

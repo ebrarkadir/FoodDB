@@ -6,6 +6,8 @@ import {signOut, useSession} from "next-auth/react";
 import Link from "next/link";
 import {useContext, useState} from "react";
 
+
+
 function AuthLinks({status, userName}) {
   if (status === 'authenticated') {
     return (
@@ -31,6 +33,9 @@ function AuthLinks({status, userName}) {
       </>
     );
   }
+
+
+
 }
 
 export default function Header() {
@@ -71,6 +76,7 @@ export default function Header() {
           className="md:hidden p-4 bg-gray-200 rounded-lg mt-2 flex flex-col gap-2 text-center">
           <Link href={'/'}>Ana Sayfa</Link>
           <Link href={'/menu'}>Menü</Link>
+          <Link href={'/#fav'}>Favoriler</Link>
           <Link href={'/#about'}>Hakkımızda</Link>
           <Link href={'/#contact'}>İletişim</Link>
           <AuthLinks status={status} userName={userName} />
@@ -83,6 +89,7 @@ export default function Header() {
           </Link>
           <Link href={'/'}>Ana Sayfa</Link>
           <Link href={'/menu'}>Menü</Link>
+          <Link href={'/#fav'}>Favoriler</Link>
           <Link href={'/#about'}>Hakkımızda</Link>
           <Link href={'/#contact'}>İletişim</Link>
         </nav>
