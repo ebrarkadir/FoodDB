@@ -1,1 +1,0 @@
-![Veritabi](../fotograflar/veritabani_diagrami.png)
