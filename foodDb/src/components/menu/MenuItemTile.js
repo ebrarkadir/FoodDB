@@ -1,9 +1,9 @@
 import AddToCartButton from "../menu/AddToCartButton";
-import FavoriteButton from "../menu/FavoriteButon";
+import FavoriteButton from "../../components/menu/FavoriteButon"; // Düzgün yolu kontrol edin
 import Image from "next/image";
 
 export default function MenuItemTile({ onAddToCart, ...item }) {
-  const { image, description, name, basePrice, sizes, extraIngredientPrices } = item;
+  const { image, description, name, basePrice, sizes, extraIngredientPrices, category } = item; // category ekleyin
   const hasSizesOrExtras = sizes?.length > 0 || extraIngredientPrices?.length > 0;
 
   return (
@@ -16,7 +16,7 @@ export default function MenuItemTile({ onAddToCart, ...item }) {
       <p className="text-gray-500 text-sm line-clamp-3">
         {description}
       </p>
-      <FavoriteButton productId={name} />
+      <FavoriteButton productId={name} productCategory={category} />
       <AddToCartButton
         image={image}
         hasSizesOrExtras={hasSizesOrExtras}

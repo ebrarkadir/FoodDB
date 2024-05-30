@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-const FavoriteButton = ({ productId }) => {
+const FavoriteButton = ({ productId, productCategory }) => {
   const [isFavorite, setIsFavorite] = useState(() => {
     const storedFavorites = JSON.parse(localStorage.getItem('favorites')) || [];
-    return storedFavorites.includes(productId);
+    return storedFavorites.some(favorite => favorite.id === productId);
   });
 
   const handleFavorite = () => {
@@ -11,9 +11,9 @@ const FavoriteButton = ({ productId }) => {
     let updatedFavorites;
 
     if (isFavorite) {
-      updatedFavorites = storedFavorites.filter(id => id !== productId);
+      updatedFavorites = storedFavorites.filter(favorite => favorite.id !== productId);
     } else {
-      updatedFavorites = [...storedFavorites, productId];
+      updatedFavorites = [...storedFavorites, { id: productId, category: productCategory }];
     }
 
     localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
