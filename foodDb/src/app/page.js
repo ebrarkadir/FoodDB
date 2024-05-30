@@ -12,15 +12,16 @@ export default function Home() {
       <HomeMenu />
       <section className="text-center my-16" id="fav">
         <SectionHeaders 
-        subHeader={'En beğendikleriniz!'}
-        mainHeader={'Favorileriniz'} />
+          subHeader={'En beğendikleriniz!'}
+          mainHeader={'Favorileriniz'} 
+        />
         <FavoritesList />
       </section>
       <section className="text-center my-16" id="about">
         <SectionHeaders mainHeader={'Hakkımızda'} />
         <div className="text-gray-500 max-w-md mx-auto mt-4 flex flex-col gap-4">
           <p>
-            Hoş geldiniz! Lezzet dolu bir maceraya hazır mısınız? Biz, FoodDB olarak  İstanbul'un hızlı tempolu yaşam tarzına ayak uyduran, lezzetin hızını ve keyfini bir araya getiren bir fast food deneyimi sunuyoruz. 2020 yılında İstanbul'da doğduk ve o zamandan beri şehrin en iştah açıcı adreslerinden biri olduk.
+            Hoş geldiniz! Lezzet dolu bir maceraya hazır mısınız? Biz, FoodDB olarak İstanbul&apos;un hızlı tempolu yaşam tarzına ayak uyduran, lezzetin hızını ve keyfini bir araya getiren bir fast food deneyimi sunuyoruz. 2020 yılında İstanbul&apos;da doğduk ve o zamandan beri şehrin en iştah açıcı adreslerinden biri olduk.
           </p>
           <p>
             Müşterilerimize hızlı, lezzetli ve doyurucu yemekler sunarken, aynı zamanda onlara evlerindeymiş gibi rahat hissettirmek için çalışıyoruz. FoodDB, kaliteli malzemelerle hazırladığı atıştırmalıkları ve özel tariflerini sunmaktan gurur duyar.

@@ -25,7 +25,7 @@ export default function EditMenuItemPage() {
         setMenuItem(item);
       });
     })
-  }, []);
+  }, [id]); 
 
   async function handleFormSubmit(ev, data) {
     ev.preventDefault();
@@ -54,7 +54,7 @@ export default function EditMenuItemPage() {
   async function handleDeleteClick() {
     const promise = new Promise(async (resolve, reject) => {
       const res = await fetch('/api/menu-items?_id='+id, {
-        method: 'Sil',
+        method: 'DELETE', 
       });
       if (res.ok)
         resolve();
