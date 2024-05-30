@@ -1,4 +1,4 @@
-import {AppProvider} from "@/components/AppContext";
+import {AppProvider} from "../components/AppContext";
 import Header from "@/components/layout/Header";
 import { Roboto } from 'next/font/google'
 import './globals.css'

@@ -1,4 +1,4 @@
-import {CartContext} from "@/components/AppContext";
+import {CartContext} from "../AppContext";
 import MenuItemTile from "@/components/menu/MenuItemTile";
 import Image from "next/image";
 import {useContext, useState} from "react";
