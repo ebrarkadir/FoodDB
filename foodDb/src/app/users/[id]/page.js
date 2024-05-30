@@ -1,48 +1,24 @@
-import UserForm from "@/components/layout/UserForm";
+'use client';
 import UserTabs from "@/components/layout/UserTabs";
 import { useProfile } from "@/components/UseProfile";
-import { useParams } from "next/navigation";
+import Link from "next/link";
 import { useEffect, useState } from "react";
-import toast from "react-hot-toast";
 
-export default function EditUserPage() {
-  const { loading, data } = useProfile();
-  const [user, setUser] = useState(null);
-  const { id } = useParams();
+export default function UsersPage() {
+
+  const [users, setUsers] = useState([]);
+  const { loading, data } = useProfile(); // useProfile içinde useParams kullanılıyor olabilir
 
   useEffect(() => {
-    if (id) {
-      fetch('/api/profile?_id=' + id)
-        .then(res => res.json())
-        .then(user => {
-          setUser(user);
-        });
-    }
-  }, [id]);
-
-  async function handleSaveButtonClick(ev, data) {
-    ev.preventDefault();
-    const promise = new Promise(async (resolve, reject) => {
-      const res = await fetch('/api/profile', {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...data, _id: id }),
+    fetch('/api/users').then(response => {
+      response.json().then(users => {
+        setUsers(users);
       });
-      if (res.ok)
-        resolve();
-      else
-        reject();
-    });
-
-    await toast.promise(promise, {
-      loading: 'Saving user...',
-      success: 'User saved',
-      error: 'An error has occurred while saving the user',
-    });
-  }
+    })
+  }, []);
 
   if (loading) {
-    return 'Loading user profile...';
+    return 'Loading user info...';
   }
 
   if (!data.admin) {
@@ -50,10 +26,27 @@ export default function EditUserPage() {
   }
 
   return (
-    <section className="mt-8 mx-auto max-w-2xl">
+    <section className="max-w-2xl mx-auto mt-8">
       <UserTabs isAdmin={true} />
       <div className="mt-8">
-        <UserForm user={user} onSave={handleSaveButtonClick} />
+        {users?.length > 0 && users.map(user => (
+          <div
+            key={user._id}
+            className="bg-gray-100 rounded-lg mb-2 p-1 px-4 flex items-center gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 grow">
+              <div className="text-gray-900">
+                {!!user.name && (<span>{user.name}</span>)}
+                {!user.name && (<span className="italic">No name</span>)}
+              </div>
+              <span className="text-gray-500">{user.email}</span>
+            </div>
+            <div>
+              <Link className="button" href={'/users/'+user._id}>
+                Edit
+              </Link>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );
