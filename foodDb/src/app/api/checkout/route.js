@@ -1,4 +1,4 @@
-import {authOptions} from "@/app/api/auth/[...nextauth]/route";
+import {authOptions} from "@/app/api/isAdmin";
 import {MenuItem} from "@/models/MenuItem";
 import {Order} from "@/models/Order";
 import mongoose from "mongoose";
