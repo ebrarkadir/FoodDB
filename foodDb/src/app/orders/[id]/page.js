@@ -1,3 +1,4 @@
+'use client';
 import { useEffect, useState, useContext } from "react";
 import { useParams } from "next/navigation";
 import { CartContext, cartProductPrice } from "../../../components/AppContext";
