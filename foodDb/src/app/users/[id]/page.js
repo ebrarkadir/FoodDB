@@ -1,24 +1,47 @@
 'use client';
+import UserForm from "@/components/layout/UserForm";
 import UserTabs from "@/components/layout/UserTabs";
-import { useProfile } from "@/components/UseProfile";
-import Link from "next/link";
-import { useEffect, useState } from "react";
+import {useProfile} from "@/components/UseProfile";
+import {useParams} from "next/navigation";
+import {useEffect, useState} from "react";
+import toast from "react-hot-toast";
 
-export default function UsersPage() {
-
-  const [users, setUsers] = useState([]);
-  const { loading, data } = useProfile(); // useProfile içinde useParams kullanılıyor olabilir
+export default function EditUserPage() {
+  const {loading, data} = useProfile();
+  const [user, setUser] = useState(null);
+  const {id} = useParams();
 
   useEffect(() => {
-    fetch('/api/users').then(response => {
-      response.json().then(users => {
-        setUsers(users);
+    fetch('/api/profile?_id='+id).then(res => {
+      res.json().then(user => {
+        setUser(user);
       });
     })
   }, []);
 
+  async function handleSaveButtonClick(ev, data) {
+    ev.preventDefault();
+    const promise = new Promise(async (resolve, reject) => {
+      const res = await fetch('/api/profile', {
+        method: 'PUT',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({...data,_id:id}),
+      });
+      if (res.ok)
+        resolve();
+      else
+        reject();
+    });
+
+    await toast.promise(promise, {
+      loading: 'Saving user...',
+      success: 'User saved',
+      error: 'An error has occurred while saving the user',
+    });
+  }
+
   if (loading) {
-    return 'Loading user info...';
+    return 'Loading user profile...';
   }
 
   if (!data.admin) {
@@ -26,27 +49,10 @@ export default function UsersPage() {
   }
 
   return (
-    <section className="max-w-2xl mx-auto mt-8">
+    <section className="mt-8 mx-auto max-w-2xl">
       <UserTabs isAdmin={true} />
       <div className="mt-8">
-        {users?.length > 0 && users.map(user => (
-          <div
-            key={user._id}
-            className="bg-gray-100 rounded-lg mb-2 p-1 px-4 flex items-center gap-4">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 grow">
-              <div className="text-gray-900">
-                {!!user.name && (<span>{user.name}</span>)}
-                {!user.name && (<span className="italic">No name</span>)}
-              </div>
-              <span className="text-gray-500">{user.email}</span>
-            </div>
-            <div>
-              <Link className="button" href={'/users/'+user._id}>
-                Edit
-              </Link>
-            </div>
-          </div>
-        ))}
+        <UserForm user={user} onSave={handleSaveButtonClick} />
       </div>
     </section>
   );
