@@ -33,6 +33,8 @@
 <b>4.Google ile Giriş Yapma</b><br>
 <b>5.Üye Bilgisi Güncelle</b><br>
 <b>6.Üye Listeleme</b><br>
+<b>7.Google ile Üye Olma</b><br>
+
 
 
 

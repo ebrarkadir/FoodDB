@@ -12,13 +12,9 @@
 <b>4. Favorilerden Listesi Oluşturma:</b> <p>
     Bu özellik, müşterilere kendi favori ürünlerini görüntüleyebilecekleri bir ekran sunar. Müşteriler, bu ekranda favori ürünlerini kolayca görebilir, güncelleyebilir veya kaldırabilirler. Bu özellik, müşterilerin tercihlerini yönetmelerini sağlar ve alışveriş deneyimini kişiselleştirir.
 
+<b>5. Üye Rolü Belirleme:</b><p>
+Üye rolü belirleme işlemi, platform yöneticilerinin kullanıcıların hesap yetkilerini belirlemesini sağlar. Bu işlem, kullanıcıların platform üzerindeki yetkilerini yönetmelerini ve belirli işlevlere erişim sağlamalarını sağlar. Örneğin, yöneticiler, kullanıcıların admin veya standart kullanıcı olarak hesaplarını belirleyebilirler. Bu işlem, platformun güvenliğini ve verimliliğini artırmak için önemlidir.<p>
+
+<b>6. Ürün Kategorisi Silme: </b> <p>
+Ürün kategorisi silme işlemi, admin panelindeki bir liste veya tablo üzerinden mevcut kategorilerin görüntülenmesini sağlar. Her bir kategori için silme işlemini gerçekleştirebilecek bir buton veya işaret bulunur. Silme işlemi onaylandığında, ilgili kategori veritabanından kalıcı olarak silinir.
 </p>
-<b>5. Yorum Yazma: </b> <p>
-    Müşteriler, bir ürün hakkında deneyimlerini ve görüşlerini paylaşmak için bu özelliği kullanabilirler. Restoran menüsünde bulunan bir yemek veya içecek hakkındaki düşüncelerini diğer müşterilerle paylaşabilirler. Bu, diğer müşterilerin ürün hakkında daha fazla bilgi edinmelerini sağlar.
-</p>
-<b>6. Yorum Silme: </b> <p>
-    Müşterilere, daha önce yazdıkları yorumları istedikleri zaman silme esnekliği sağlayan bu özellik, müşterilerin deneyimlerini yönetmelerini ve gerektiğinde geri almayı sağlar. Bir müşteri, yorumunu güncellemek veya kaldırmak istediğinde kolayca yapabilir.
-</p>
-<b>7. Yorum Listeleme: </b> <p>
-    Bu özellik, belirli bir ürünle ilgili tüm müşteri yorumlarının bir listesini gösterir. Diğer müşteriler, ürün hakkındaki farklı görüşleri okuyabilir ve bu görüşler ışığında satın alma kararı verebilirler. Bu, müşterilere daha bilinçli alışveriş yapmalarına yardımcı olur.
-</p> 

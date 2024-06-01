@@ -11,14 +11,16 @@
 <b>Google İle Giriş Yapma:</b><p>
 Google ile giriş yapma seçeneği, kullanıcıların Google hesapları aracılığıyla platformumuza erişim sağlamalarını sağlar. Bu seçenek, kullanıcıların giriş bilgilerini hatırlamalarına gerek kalmadan kolayca hesaplarına erişmelerini sağlar.<p>
 
+<b>Google İle Üye Olma:</b><p>
+Google ile üye olma seçeneği, kullanıcıların Google hesapları aracılığıyla platformumuza üye olmalarını sağlar. Bu seçenek, kullanıcıların giriş bilgilerini doldurmalarına gerek kalmadan sisteme kolayca kayıt olmalarını sağlar sağlar.<p>
+
 <b>Üye Bilgisi Güncelleme:</b><p>
 Üye bilgisi güncelleme işlemi, kullanıcıların hesap bilgilerini güncellemelerini sağlar. Kullanıcılar, hesaplarına giriş yaptıktan sonra kişisel bilgilerini güncelleyebilirler. Bu bilgiler arasında ad, soyad, e-posta adresi, telefon numarası gibi kullanıcı bilgileri yer alır. Güncelleme işlemi tamamlandığında, kullanıcıların bilgileri güncellenir ve hesaplarına kaydedilir.<p>
 
 <b>Üye Listeleme:</b><p>
 Üye listeleme işlemi, platformumuzda kayıtlı olan tüm kullanıcıların listesini görüntülemeyi sağlar. Bu işlem, kullanıcıların hesaplarını yönetme ve diğer kullanıcıları keşfetme imkanı sunar. Kullanıcılar, liste üzerinden diğer kullanıcıların profillerini görüntüleyebilir ve iletişim kurabilirler.<p>
 
-<b>Üye Rolü Belirleme:</b><p>
-Üye rolü belirleme işlemi, platform yöneticilerinin kullanıcıların hesap yetkilerini belirlemesini sağlar. Bu işlem, kullanıcıların platform üzerindeki yetkilerini yönetmelerini ve belirli işlevlere erişim sağlamalarını sağlar. Örneğin, yöneticiler, kullanıcıların admin veya standart kullanıcı olarak hesaplarını belirleyebilirler. Bu işlem, platformun güvenliğini ve verimliliğini artırmak için önemlidir.<p>
+
 
 
 
