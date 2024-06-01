@@ -56,7 +56,7 @@ export default function CategoriesPage() {
   async function handleDeleteClick(_id) {
     const promise = new Promise(async (resolve, reject) => {
       const response = await fetch('/api/categories?_id='+_id, {
-        method: 'Sil',
+        method: 'DELETE',
       });
       if (response.ok) {
         resolve();
