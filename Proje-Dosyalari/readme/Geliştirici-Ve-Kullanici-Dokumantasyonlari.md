@@ -5,4 +5,4 @@
 
 [3 - Zeynep Melike Aydoğmuş'un Kullanıcı Dokümantasyonu](https://app.gitbook.com/o/d5RT5necW2HidRXMOsJY/s/nksYxvg1yVE37clmGE6W/)
 
-[4 - Funda Uğurlu'nun Kullanıcı Dokümantasyonu](https://app.gitbook.com/o/d5RT5necW2HidRXMOsJY/s/ccilTvTa7LAdBFijPgXl/ )
+[4 - Funda Uğurlu'nun Kullanıcı Dokümantasyonu](https://app.gitbook.com/invite/d5RT5necW2HidRXMOsJY/2kTikf7IfUiqsVsuSba3)
