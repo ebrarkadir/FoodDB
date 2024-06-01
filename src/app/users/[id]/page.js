@@ -34,18 +34,17 @@ export default function EditUserPage() {
     });
 
     await toast.promise(promise, {
-      loading: 'Saving user...',
-      success: 'User saved',
-      error: 'An error has occurred while saving the user',
+      loading: 'Kullanıcı kaydediliyor...',
+      success: 'Kullanıcı kaydedildi',
+      error: 'Kullanıcı kaydedilirken bir hata oluştu',
     });
   }
 
   if (loading) {
-    return 'Loading user profile...';
-  }
+    return 'Kullanıcı profili yükleniyor...';  }
 
   if (!data.admin) {
-    return 'Not an admin';
+    return 'Yönetici değilsiniz.';
   }
 
   return (
