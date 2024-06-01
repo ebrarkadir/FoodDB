@@ -47,15 +47,15 @@ export default function ProfilePage() {
     });
 
     await toast.promise(savingPromise, {
-      loading: 'Saving...',
-      success: 'Profile saved!',
-      error: 'Error',
+      loading: 'Kaydediliyor...',
+      success: 'Profil kaydedildi!',
+      error: 'Hata oluştu',
     });
 
   }
 
   if (status === 'loading' || !profileFetched) {
-    return 'Loading...';
+    return 'Yükleniyor...';
   }
 
   if (status === 'unauthenticated') {

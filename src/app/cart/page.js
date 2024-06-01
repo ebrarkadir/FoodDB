@@ -17,7 +17,7 @@ export default function CartPage() {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       if (window.location.href.includes('canceled=1')) {
-        toast.error('Payment failed 😔');
+        toast.error('Ödeme başarısız oldu 😔');
       }
     }
   }, []);
@@ -67,9 +67,9 @@ export default function CartPage() {
     });
 
     await toast.promise(promise, {
-      loading: 'Preparing your order...',
-      success: 'Redirecting to payment...',
-      error: 'Something went wrong... Please try again later',
+      loading: 'Siparişiniz hazırlanıyor...',
+      success: 'Ödeme sayfasına yönlendiriliyorsunuz...',
+      error: 'Siparişiniz oluşturuldu',
     });
   }
 

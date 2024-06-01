@@ -18,11 +18,11 @@ export default function UsersPage() {
   }, []);
 
   if (loading) {
-    return 'Loading user info...';
+    return 'Kullanıcı profili yükleniyor...';
   }
 
   if (!data.admin) {
-    return 'Not an admin';
+    return 'Yönetici değilsiniz.';
   }
 
   return (
@@ -42,7 +42,7 @@ export default function UsersPage() {
             </div>
             <div>
               <Link className="button" href={'/users/'+user._id}>
-                Edit
+                Düzenle
               </Link>
             </div>
           </div>

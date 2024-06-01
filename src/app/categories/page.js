@@ -46,10 +46,10 @@ export default function CategoriesPage() {
     });
     await toast.promise(creationPromise, {
       loading: editedCategory
-                 ? 'Updating category...'
-                 : 'Creating your new category...',
-      success: editedCategory ? 'Category updated' : 'Category created',
-      error: 'Error, sorry...',
+                 ? 'Kategori güncelleniyor...'
+                 : 'Yeni kategori oluşturuluyor...',
+      success: editedCategory ? 'Kategori güncellendi' : 'Kategori oluşturuldu',
+      error: 'Hata, özür dileriz...',
     });
   }
 
@@ -68,7 +68,7 @@ export default function CategoriesPage() {
     await toast.promise(promise, {
       loading: 'Siliniyor...',
       success: 'Silindi',
-      error: 'Error',
+      error: 'Hata oluştu.',
     });
 
     fetchCategories();
@@ -101,7 +101,7 @@ export default function CategoriesPage() {
           </div>
           <div className="pb-2 flex gap-2">
             <button className="border border-primary" type="submit">
-              {editedCategory ? 'Update' : 'Create'}
+              {editedCategory ? 'Güncelle' : 'Oluştur'}
             </button>
             <button
               type="button"
@@ -109,13 +109,13 @@ export default function CategoriesPage() {
                 setEditedCategory(null);
                 setCategoryName('');
               }}>
-              Cancel
+              İptal et
             </button>
           </div>
         </div>
       </form>
       <div>
-        <h2 className="mt-8 text-sm text-gray-500">Existing categories</h2>
+        <h2 className="mt-8 text-sm text-gray-500">Mevcut kategoriler</h2>
         {categories?.length > 0 && categories.map(c => (
           <div
             key={c._id}
@@ -130,7 +130,7 @@ export default function CategoriesPage() {
                         setCategoryName(c.name);
                       }}
               >
-                Edit
+                Düzenle
               </button>
               <DeleteButton
                 label="Sil"

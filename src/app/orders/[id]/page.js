@@ -40,7 +40,7 @@ export default function OrderPage() {
   return (
     <section className="max-w-2xl mx-auto mt-8">
       <div className="text-center">
-        <SectionHeaders mainHeader="Your order" />
+        <SectionHeaders mainHeader="Siparişiniz" />
         <div className="mt-4 mb-8">
           <p>Siparişiniz için teşekkürler</p>
           <p>Siparişiniz yola çıktığında sizi arayacağız!</p>

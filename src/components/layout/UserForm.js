@@ -40,7 +40,7 @@ export default function UserForm({user,onSave}) {
         }
       >
         <label>
-          First and last name
+          Adınız ve Soyadınız
         </label>
         <input
           type="text" placeholder="First and last name"
@@ -69,7 +69,7 @@ export default function UserForm({user,onSave}) {
             </label>
           </div>
         )}
-        <button type="submit">Save</button>
+        <button type="submit">Kaydet</button>
       </form>
     </div>
   );

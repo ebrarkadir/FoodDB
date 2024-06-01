@@ -1,5 +1,5 @@
 
-[1 - Oğuzhan Yıldiz Kullanıcı Dokümantasyonu](https://app.gitbook.com/invite/d5RT5necW2HidRXMOsJY/8UYQTAnm4qAaDGraLJsk)
+[1 - Oğuzhan Yıldiz Kullanıcı Dokümantasyonu](https://fundaaugurluu.gitbook.io/oguzhan-yildizin-kullanici-dokuemantasyonu/)
 
 [2 - Ebrar Kadir Çetin Kullanıcı Dokümantasyonu](https://app.gitbook.com/invite/d5RT5necW2HidRXMOsJY/5ncOVsF9q6O363yI3LkA)
 
