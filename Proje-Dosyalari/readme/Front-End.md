@@ -16,7 +16,7 @@
 
 # Ebrar Kadir Çetin Tasarımları
 <b>1.Menü items sayfası tasarımı</b><br>
-<b>2.Useres sayfası tasarımı/b><br>
+<b>2.Useres sayfası tasarımı</b><br>
 <b>3.Orders sayfası tasarımı</b><br>
 
 
