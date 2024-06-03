@@ -15,3 +15,4 @@
 7.[Back-End](Proje-Dosyalari/readme/Back-End.md)<br>
 8.[Test](Proje-Dosyalari/readme/Test.md)<br>
 9.[Geliştirici ve Kullancı Dökümantasyonları](Proje-Dosyalari/readme/Geliştirici-Ve-Kullanici-Dokumantasyonlari.md)<br>
+10.[Sitenin Test Videosu](https://drive.google.com/file/d/1VRZy9Zo2RKiMzu3DsnOgG-63KO6-fWJF/view?usp=sharing)<br>
